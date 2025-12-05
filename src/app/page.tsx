@@ -1,6 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import TalentMap from "@/modules/main/talent-map";
+import dynamic from "next/dynamic";
+
+const TalentMap = dynamic(() => import("@/modules/main/talent-map"), {
+  ssr: false,
+  loading: () => (
+    <div className="h-96 flex items-center justify-center">Loading map...</div>
+  ),
+});
 
 export default function Home() {
   return (
