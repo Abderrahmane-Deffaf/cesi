@@ -1,0 +1,6 @@
+- use shadcn for ui components
+- use supabase for auth and db
+- use react hook form for form handling 
+- use zustand for state management
+- use tailwindcss for styling
+- don't use large files limit the size to 300 lines
