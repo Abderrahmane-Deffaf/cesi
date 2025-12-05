@@ -1,3 +1,5 @@
+[Live URL](https://cesi-chi.vercel.app/)
+
 # Description de projet 
 Le projet consiste a développer une application web de gestion de talents, qui permettant a des talents de s'inscrire, d'avoir plus de visibilité, et pour les recruteurs ou collaborateurs de leur contanter plus facilement.
 
